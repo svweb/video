@@ -1,0 +1,79 @@
+[
+    {
+        "site": "youku.com/video/",
+        "parse": [
+            "https://yun.odflv.com/odflv/index.php?url=",
+            "http://app.baiyug.cn:2019/vip/?url=",
+            "http://api.bbbbbb.me/yunjx/?url="
+        ]
+    },
+    {
+        "site": "iqiyi.com/v_",
+        "parse": [
+            "http://vip.jlsprh.com/index.php?url=",
+            "http://app.baiyug.cn:2019/vip/?url=",
+            "http://api.bbbbbb.me/yunjx/?url="
+        ]
+    },
+    {
+        "site": "v.qq.com/cover",
+        "parse": [
+            "http://api.bbbbbb.me/yunjx/?url="
+        ]
+    },
+    {
+        "site": "v.qq.com/play",
+        "parse": [
+            "http://api.bbbbbb.me/yunjx/?url="
+        ]
+    },
+    {
+        "site": "ifilm.sohu.com/album",
+        "parse": [
+            "https://yun.odflv.com/odflv/index.php?url=",
+            "http://app.baiyug.cn:2019/vip/?url="
+        ]
+    },
+    {
+        "site": "m.tv.sohu.com/u/",
+        "parse": [
+            "https://yun.odflv.com/odflv/index.php?url=",
+            "http://app.baiyug.cn:2019/vip/?url="
+        ]
+    },
+    {
+        "site": "m.tv.sohu.com/v",
+        "parse": [
+            "https://yun.odflv.com/odflv/index.php?url=",
+            "http://app.baiyug.cn:2019/vip/?url="
+        ]
+    },
+    {
+        "site": "pptv.com/show",
+        "parse": [
+            "https://yun.odflv.com/odflv/index.php?url=",
+            "http://app.baiyug.cn:2019/vip/?url="
+        ]
+    },
+    {
+        "site": "bilibili.com/video",
+        "parse": [
+            "https://yun.odflv.com/odflv/index.php?url=",
+            "http://app.baiyug.cn:2019/vip/?url="
+        ]
+    },
+    {
+        "site": "bilibili.com/bangumi/play",
+        "parse": [
+            "https://yun.odflv.com/odflv/index.php?url=",
+            "http://app.baiyug.cn:2019/vip/?url="
+        ]
+    },
+    {
+        "site": "mgtv.com/b/",
+        "parse": [
+            "https://yun.odflv.com/odflv/index.php?url=",
+            "http://app.baiyug.cn:2019/vip/?url="
+        ]
+    }
+]
