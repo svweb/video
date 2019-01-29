@@ -10,21 +10,24 @@
     {
         "site": "iqiyi.com/v_",
         "parse": [
-            "http://vip.jlsprh.com/index.php?url=",
-            "http://app.baiyug.cn:2019/vip/?url=",
-            "http://api.bbbbbb.me/yunjx/?url="
+            
+            "http://api.baiyug.vip/index.php?url=",
+            "http://api.bbbbbb.me/yunjx/?url=",
+            "http://vip.jlsprh.com/index.php?url="
         ]
     },
     {
         "site": "v.qq.com/cover",
         "parse": [
-            "http://api.bbbbbb.me/yunjx/?url="
+            "http://api.bbbbbb.me/yunjx/?url=",
+            "http://api.baiyug.vip/index.php?url="
         ]
     },
     {
         "site": "v.qq.com/play",
         "parse": [
-            "http://api.bbbbbb.me/yunjx/?url="
+            "http://api.bbbbbb.me/yunjx/?url=",
+            "http://api.baiyug.vip/index.php?url="
         ]
     },
     {
@@ -45,7 +48,7 @@
         "site": "m.tv.sohu.com/v",
         "parse": [
             "https://yun.odflv.com/odflv/index.php?url=",
-            "http://app.baiyug.cn:2019/vip/?url="
+            "http://api.baiyug.vip/index.php?url="
         ]
     },
     {
