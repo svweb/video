@@ -18,22 +18,19 @@
   {
     "site": "v.qq.com/cover",
     "parse": [
-      "http://api.bbbbbb.me/yunjx/?url=",
-      "https://jx.618g.com/index.php?url="
+      "http://api.bbbbbb.me/yunjx/?url="
     ]
   },
   {
     "site": "v.qq.com/play",
     "parse": [
-      "http://api.bbbbbb.me/yunjx/?url=",
-      "https://jx.618g.com/index.php?url="
+      "http://api.bbbbbb.me/yunjx/?url="
     ]
   },
   {
     "site": "v.qq.com/x/cover/",
     "parse": [
-      "http://api.bbbbbb.me/yunjx/?url=",
-      "https://jx.618g.com/index.php?url="
+      "http://api.bbbbbb.me/yunjx/?url="
     ]
   },
   {
