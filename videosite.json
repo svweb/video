@@ -34,7 +34,7 @@
     ]
   },
   {
-    "site": "ifilm.sohu.com/album",
+    "site": "film.sohu.com/album",
     "parse": [
       "https://yun.odflv.com/odflv/index.php?url=",
       "http://app.baiyug.cn:2019/vip/?url="
