@@ -2,8 +2,8 @@
   {
     "site": "youku.com/video/",
     "parse": [
-      "https://yun.odflv.com/odflv/index.php?url=",
       "http://app.baiyug.cn:2019/vip/?url=",
+      "https://yun.odflv.com/odflv/index.php?url=",
       "http://api.bbbbbb.me/yunjx/?url="
     ]
   },
@@ -36,29 +36,29 @@
   {
     "site": "film.sohu.com/album",
     "parse": [
-      "https://yun.odflv.com/odflv/index.php?url=",
-      "http://app.baiyug.cn:2019/vip/?url="
+      "http://app.baiyug.cn:2019/vip/?url=",
+      "https://yun.odflv.com/odflv/index.php?url="
     ]
   },
   {
     "site": "m.tv.sohu.com/u/",
     "parse": [
-      "https://yun.odflv.com/odflv/index.php?url=",
-      "http://app.baiyug.cn:2019/vip/?url="
+      "http://app.baiyug.cn:2019/vip/?url=",
+      "https://yun.odflv.com/odflv/index.php?url="
     ]
   },
   {
     "site": "m.tv.sohu.com/v",
     "parse": [
-      "https://yun.odflv.com/odflv/index.php?url=",
-      "http://api.baiyug.vip/index.php?url="
+      "http://api.baiyug.vip/index.php?url=",
+      "https://yun.odflv.com/odflv/index.php?url="
     ]
   },
   {
     "site": "pptv.com/show",
     "parse": [
-      "https://yun.odflv.com/odflv/index.php?url=",
-      "http://app.baiyug.cn:2019/vip/?url="
+      "http://app.baiyug.cn:2019/vip/?url=",
+      "https://yun.odflv.com/odflv/index.php?url="
     ]
   },
   {
@@ -78,8 +78,8 @@
   {
     "site": "mgtv.com/b/",
     "parse": [
-      "https://yun.odflv.com/odflv/index.php?url=",
-      "http://app.baiyug.cn:2019/vip/?url="
+      "http://app.baiyug.cn:2019/vip/?url=",
+      "https://yun.odflv.com/odflv/index.php?url="
     ]
   }
 ]
