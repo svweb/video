@@ -34,10 +34,15 @@ a {
 　var arrUrl = url.split("???");
 　var para = arrUrl[1];
   var title = arrUrl[2];
+  var userid = "";
+  if(arrUrl.length>2){
+  	 userid = arrUrl[3];
+  }
+  
   document.title = decodeURI(title);
 
   if(isiPad){
-  	document.getElementById('player').innerHTML = '<video controls="controls" preload="preload" autoplay="autoplay" width="100%" height="40%" x-webkit-airplay="allow" src="'+para+'"></video> <img src="ad.jpg" width="100%" height="100%"/>';
+  	document.getElementById('player').innerHTML = '<video controls="controls" preload="preload" autoplay="autoplay" width="100%" height="40%" x-webkit-airplay="allow" src="'+para+'"></video> <img src="http://128.1.132.208:1133/movie/getQr?userid='+para+'" width="100%" height="100%"/>';
   	document.getElementById('player').style="overflow-y:auto";
   }else {
       	 
