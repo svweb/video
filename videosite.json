@@ -81,5 +81,9 @@
       "http://app.baiyug.cn:2019/vip/?url=",
       "https://yun.odflv.com/odflv/index.php?url="
     ]
+  },
+  {
+    "site": "w.na27s.cn",
+    "parse": []
   }
 ]
