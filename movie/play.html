@@ -22,7 +22,7 @@ a {
 </head>
 <body marginwidth="0" marginheight="0">
 <div id="player" class="dplayer" ><video controls="controls"  preload="preload" width="100%" height="40%" x-webkit-airplay="allow" src=""></video>
-<center style="margin-top:30px;"><img src="" width="200px" height="200px"/></center>
+<center style="margin-top:30px;"></center>
 </div>
 
 	
@@ -30,12 +30,19 @@ a {
 <script type="text/javascript" src="./DPlayer.min.js" charset="utf-8"></script>
 <script src="./flv.min.js"></script>
 <script type="text/javascript">
+  
+  function ImgError(source){
+    source.src = "https://carewhat.oss-cn-shenzhen.aliyuncs.com/ad/default.jpg";
+    source.onerror = "";
+    return true;
+}
+
+  
   var isiPad = navigator.userAgent.match(/iPad|iPhone|Android|Linux|iPod/i) != null;
   var url = document.location.toString();
-  
 　var arrUrl = url.split("???");
 　var para = arrUrl[1];
-  var title = arrUrl[2];
+var title = arrUrl[2];
   var userid = "";
   if(arrUrl.length>2){
   	 userid = arrUrl[3];
@@ -43,8 +50,10 @@ a {
   
   document.title = decodeURI(title);
 
+
+
   if(isiPad){
-  	document.getElementById('player').innerHTML = '<video controls="controls" preload="preload" autoplay="autoplay" width="100%" height="40%" x-webkit-airplay="allow" src="'+para+'"></video> <center style="margin-top:30px;"><img src="http://128.1.132.208:1133/movie/getQr?userid='+userid+'" width="200px" height="200px"/></center>';
+  	document.getElementById('player').innerHTML = '<video controls="controls" preload="preload" autoplay="autoplay" width="100%" height="40%" x-webkit-airplay="allow" src="'+para+'"></video> <center ><img src="https://carewhat.oss-cn-shenzhen.aliyuncs.com/ad/='+userid+'.jpg'+'" width="96%" onerror="ImgError(this);" /></center>';
   	document.getElementById('player').style="overflow-y:auto";
   }else {
       	 
@@ -56,6 +65,7 @@ a {
 				url: para,
                 pic: pic
 			       }
+
 			   });
    }
 </script>
